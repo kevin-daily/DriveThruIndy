@@ -7,6 +7,7 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.RadioButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -112,17 +113,62 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
         // Is the button now checked?
-        //boolean checked = ((RadioButton) view).isChecked();
+        boolean checked = ((RadioButton) view).isChecked();
 
-        // Check which radio button was clicked
+        /* Check which radio button was clicked
+        TO_DO Check if this works once connected to
+        application
+         */
         switch(view.getId()) {
             case R.id.radioButton:
-                //if (checked)
-                    // Button for not crowded
+                if (checked)
+                    // Button for "almost empty"
                     break;
             case R.id.radioButton2:
-                //if (checked)
-                    // Button for little crowded
+                if (checked)
+                    // Button for "moderate"
+                    break;
+            case R.id.radioButton3:
+                if (checked)
+                    // Button for "packed"
+                    break;
+
+        }
+
+        switch(view.getId()) {
+            case R.id.radioButton5:
+                if(checked)
+                    // Button for "yes"
+                    break;
+            case R.id.radioButton6:
+                if(checked)
+                    // Button for "no"
+                    break;
+        }
+
+        switch(view.getId()) {
+            case R.id.radioButton7:
+                if(checked)
+                    // Button for "0-33%"
+                    break;
+            case R.id.radioButton8:
+                if(checked)
+                    // Button for "34-66"
+                    break;
+            case R.id.radioButton9:
+                if(checked)
+                    // Button for "67-100"
+                    break;
+        }
+
+        switch(view.getId()) {
+            case R.id.radioButton10:
+                if(checked)
+                    // Button for "yes"
+                    break;
+            case R.id.radioButton11:
+                if(checked)
+                    //Button for "no"
                     break;
         }
     }
