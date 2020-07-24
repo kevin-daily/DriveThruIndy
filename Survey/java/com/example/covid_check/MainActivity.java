@@ -17,8 +17,6 @@ import com.google.android.gms.location.GeofencingClient;
 import com.google.android.gms.location.GeofencingRequest;
 import com.google.android.gms.location.LocationServices;
 
-import java.util.ArrayList;
-
 import static com.example.covid_check.Constants.GEOFENCE_EXPIRATION_IN_MILLISECONDS;
 import static com.example.covid_check.Constants.GEOFENCE_RADIUS_IN_METERS;
 import static com.example.covid_check.Constants.Latitude;
@@ -34,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private GeofencingClient geofencingClient;
     private PendingIntent geofencePendingIntent;
     private static final String TAG = "MainActivity_";
-   
+
 
 
     @Override

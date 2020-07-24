@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Drive Thru Indy</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Submit</string>
+    <string name="thanks">Thank you for your answers!</string>
+    <string name="stay_healthy">Stay healthy and enjoy Indy!</string>
+    <string name="how_many_people_are_here">How crowded is it here?</string>
+    <string name="not_crowded">Almost Empty</string>
+    <string name="a_little_crowded">Moderate</string>
+    <string name="crowded">Packed</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="worker_wearing_mask">Are the workers wearing masks?</string>
+    <string name="cust_wearing_mask">Are the customers wearing masks?</string>
+    <string name="social_distance">Are social distancing guidelines being followed?</string>
+    <string name="quarter">0-33%</string>
+    <string name="less_than_half">34-66%</string>
+    <string name="more_than_half">67-100%</string>
+    <string name="three_quarter">76-100%</string>
+</resources>
